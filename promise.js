@@ -1,24 +1,24 @@
 // node Promise.js
 
 
-let promisefunction = () => {
+// let promisefunction = () => {
       
-      return new Promise((profoseAccept,proposeReject)=>{
+//       return new Promise((profoseAccept,proposeReject)=>{
               
-        let man = 60
-        if(man < 45){
-            profoseAccept("Tumake ami valobasi")
-        }
-        else{
-            proposeReject("Tumake ami valobasi na")
-        }
+//         let man = 60
+//         if(man < 45){
+//             profoseAccept("Tumake ami valobasi")
+//         }
+//         else{
+//             proposeReject("Tumake ami valobasi na")
+//         }
        
-     })
-}
+//      })
+// }
 
- promisefunction()
- .then(data => console.log(data))
- .catch(err => console.log("",err))
+//  promisefunction()
+//  .then(data => console.log(data))
+//  .catch(err => console.log("",err))
 
 
 // let loader = () => {
